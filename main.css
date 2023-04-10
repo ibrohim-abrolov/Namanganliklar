@@ -111,6 +111,7 @@ span {
     text-align: center;
     color: #7f7f7f;
     margin-right: 34.44px;
+    text-decoration: none;
 }
 
 .header__links:nth-child(10) {
@@ -170,6 +171,8 @@ span {
     color: #000;
 }
 
+
+
 .hero__text {
     font-family: "Rubik", "Arial" sans-serif;
     font-style: normal;
@@ -197,14 +200,14 @@ span {
 
 .second__aside {
     display: flex;
-    padding-right: 179px;
     padding-bottom: 108px;
-    padding-left: 211px;
+    margin-left: 120px;
 }
 
 .aside__image {
     width: 1200px;
     height: 128px;
+ 
 }
 
 
@@ -293,7 +296,7 @@ span {
     text-decoration: none;
     padding: 17px 343px;
     margin-left: 120px;
-
+    margin-bottom: 100px;
 }
 
 strong {
