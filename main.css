@@ -25,12 +25,13 @@ body {
    overflow-x: hidden;
 }
 
-
 .container {
     width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
+   /* Footer section  */
 
 .site__header {
     padding-bottom: 60px;
@@ -39,22 +40,16 @@ body {
 .header__wrapper {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
-    padding: 30px 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #f6f6f6;
 }
 
-.site__logo {
-   margin-right: 41px;
-}
 
-
-span {
+.header__span {
     display: flex;
     font-family: "Rubik", sans-serif;
-    font-style: normal;
     font-weight: 700;
-    font-size: 16px;
     line-height: 19px;
     color: #2959ce;
     margin-right: 25px;
@@ -86,27 +81,23 @@ span {
     text-decoration: none;
 }
 
-
-
 .header__list {
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    padding-left: 0;
+    margin: 0;
     padding-top: 30px;
-    padding-right: 120px;
     padding-bottom: 10px;
-    padding-left: 120px;
-   
+    overflow: hidden;
+    list-style: none;
 }
 
-
 .header__items {
-    list-style: none;
-    padding-bottom: 20px;
+    float: left;
 }
 
 .header__links {
-    font-style: normal;
+    display: block;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -208,12 +199,7 @@ span {
 
 .second__aside {
     padding-bottom: 108px;
-}
-
-.second__aside__wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-left: 120px;
 }
 
     /*  Cards  */
@@ -388,7 +374,7 @@ strong {
 
 .footer-information__wrapper {
       padding-top: 40px;
-      margin-right: 100px;
+      margin-right: 150px;
 }
 
 .footer-information__link {
@@ -438,6 +424,15 @@ strong {
     margin-right: 0;
 }
 
+   /* Second Page  */
+   /*  Contacts  */
+
+.contacts__banner {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
 .contacts__title {
     display: flex;
     font-family: 'Rubik', sans-serif;
@@ -445,41 +440,23 @@ strong {
     font-size: 24px;
     line-height: 28px;
     color: #000000;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 120px;
-    padding-bottom: 20px;
-}
-
-.contacts__photo {
-    width: 1200px;
-    height: 128px;
-    justify-content: center;
-    margin-bottom: 50px;
-    padding-left: 120px;
-    padding-right: 120px;
+    margin: 0;
 }
 
 .contacts__link {
-    width: 796px;
     font-family: "Rubik", sans-serif;
     display: flex;
-    font-style: normal;
     font-weight: 500;
-    font-size: 16px;
     line-height: 19px;
     color: #000;
     background-color: #eaeaea;
     border-radius: 10px;
     text-decoration: none;
     padding: 17px 343px;
-    margin-left: 120px;
 }
 
 .comment__wrapper {
     display: flex;
-    padding-right: 120px;
-    padding-left: 120px;
 }
 
 .comment-middle__wrapper {
