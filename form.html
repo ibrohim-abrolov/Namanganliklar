@@ -11,27 +11,26 @@
     <header class="site__header">
         <div class="container">
             <div class="header__wrapper">
-                <a class="site__logo" href="./form.html">
+                <a class="site__logo" href="./index.html">
                     <img src="./images/NAMANGANLIKLAR 24.svg" alt="logo site">
                 </a>
                 <span class="header__span">
                     <strong>$</strong>
                      10137.2
-                </span>
+                </span class="header__span">
                 <span class="last">
                     <strong>P</strong>
                      138.26
-                </span class="header__span">
-                <input class="usersearch" type="search" name="search" placeholder="Поиск">
+                </span>
+                <input class="usersearch" type="search" name="search" placeholder="Поиск" required>
                 <img class="image" src="./images next/ру уз.svg" alt="checkbox">
                 <a class="link" href="./index.html">
                     Войти
                 </a>
             </div>
         </div>
-
+            <div class="all__wrapper">
                 <div class="container">
-                    <div class="wrapper__nav">
                     <nav class="sitenav">
                         <ul class="header__list">
                             <li class="header__items">
@@ -55,7 +54,7 @@
                                 </a>
                             </li>
                             <li class="header__items">
-                                <a class="header__links">
+                                <a class="header__links" href="#">
                                     Общество
                                 </a>
                             </li>
@@ -84,15 +83,14 @@
                                     Наука
                                 </a>
                             </li>
-                
                         </ul>
                     </nav>
-                    </div>
+                  </div>
                 </div>  
     </header>
 
     <main>
-        <section class="form">
+        <section class="form__section">
             <div class="container">
             <h3 class="alone__title">Напишите нам</h3>
             <div class="double__wrapper">
@@ -100,14 +98,16 @@
             <form class="site__form">
                 <div class="input__wrapper">
                 <div class="essential">
-                <input class="username" type="name" placeholder="Имя" name="name" aria-label="enter your name">
-                <input class="userphone" type="number" placeholder="Номер телефона" name="phone number" aria-label="enter the number">
+                <input class="username" type="name" placeholder="Имя" name="name" aria-label="enter your name" required>
+                <input class="userphone" type="number" placeholder="Номер телефона" name="phone number" aria-label="enter the number" required>
                 </div>
-                <input class="useremail" type="email" placeholder="Электронная почта" name="email" aria-label="enter the email">
+                <input class="useremail" type="email" placeholder="Электронная почта" name="email" aria-label="enter the email" required>
                 <textarea class="textarea" type="textarea" placeholder="Текст"></textarea>
                 </div>
+                <div class="site__button">
                 <button class="form__button" type="submit">Отправить</button>
-               </form>
+                </div>
+            </form>
             </div>
                 <div class="another__wrapper">
                  <ul class="wrapper__list">
@@ -151,7 +151,7 @@
             </div>
         </div>
         <div class="footer-main__wrapper">
-            <a  class="footer-main__link" href="#">Наши социальные сети</a>
+            <a  class="footer-main__link" href="#">Наши <br> социальные сети</a>
             <img class="footer-main__images" src="./images next/free-icon-facebook-1384053 1.svg" alt="logo facebook">
             <img class="footer-main__images" src="./images next/free-icon-instagram-2111463 1.svg" alt="logo instagramm">
             <img class="footer-main__images telegramm" src="./images next/free-icon-telegram-2111646 1 (1).svg" alt="logo telegramm">

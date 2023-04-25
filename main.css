@@ -455,6 +455,8 @@ strong {
     padding: 17px 343px;
 }
 
+   /*  Comment section  */
+
 .comment__wrapper {
     display: flex;
 }
@@ -465,15 +467,13 @@ strong {
 }
 
 .comment__span {
-    margin: 0;
-    margin-bottom: 30px;
+    display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .comment__word {
-    font-family: "Rubik", sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: "Rubik", 'Helvetica', sans-serif;
     font-size: 14px;
     line-height: 17px;
     color: #5e5f61;
@@ -487,19 +487,16 @@ strong {
 
 .comment__title {
     font-family: "Rubik", sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 26px;
     line-height: 36px;
     color: #000;
-    margin: 0;
+    margin-top: 0;
     margin-bottom: 20px;
 }
 
 .comment__text {
     font-family: "Rubik", sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     color: #000;
@@ -507,25 +504,24 @@ strong {
     margin-bottom: 24px;
 }
 
-.comment__last {
+.comment__text:last-child {
     margin-bottom: 0;
     margin-bottom: 50px;
 }
 
-.interest__wrapper {
-    align-items: center;
-    padding-left: 120px;
+   /*  Interest section  */
+
+
+.interest {
     padding-bottom: 100px;
 }
 
 .interest__title {
     font-family: "Rubik", sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     color: #000;
-    margin: 0;
     margin-top: 60px;
     margin-bottom: 20px;
 }
@@ -535,8 +531,8 @@ strong {
     justify-content: space-evenly;
     list-style: none;
     margin: 0;
-    padding-right: 120px;
     padding-left: 0;
+    overflow: hidden;
 }
 
 .interest__items {
@@ -550,75 +546,64 @@ strong {
     border-radius: 15px;
 }
 
-.last__interest {
+.interest__items:last-child {
     margin-right: 0;
 }
 
+
 .interest__heading {
-    font-family: "Rubik", sans-serif;
-    font-style: normal;
+    font-family: "Rubik", 'Helvetica', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
     color: #000;
-    margin: 0;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
 .interest__text {
-    margin: 0;
+    margin-top: 0;
     font-family: "Rubik", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 22px;
     color: #4a4b4c;
     margin-bottom: 20px;
 }
 
 .interest__span {
+    display: flex;
     align-items: center;
 }
 
 .interest__strong {
     font-family: "Rubik", sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     color: #5e5f61;
 }
 
+     /*  Form section  */
 
+
+.form__section {
+    padding-bottom: 100px;
+}     
+
+.alone__title {
+    font-family: 'Rubik' , sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
 
 .double__wrapper {
     display: flex;
 }
 
-
-.mini__wrapper {
-    padding-left: 120px;
-}
-
-
-
-
-.alone__title {
-    font-family: 'Rubik' , sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000;
-    margin-left: 120px;
-}
-
-
 input {
     font-family: 'Rubik' , sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 19px;    
     color: #000000;
     opacity: 0.5;
@@ -667,18 +652,21 @@ input {
     resize: none;
 }
 
+.site__button {
+    display: flex;
+    justify-content: center;
+    padding-left: 550px;
+}
+
 .form__button {
     font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: 500;
-    font-size: 16px;
     line-height: 19px;
     color: #fff;
     padding: 17px 30px;
     background-color: #7297ef;
     border-radius: 10px;
     margin-top: 20px;
-    margin-bottom: 100px;
 }
 
 
@@ -686,8 +674,8 @@ input {
     width: 494px;
     margin: 0;
     padding-top: 40px;
+    margin-right: auto;
     padding-left: 25px;
-    padding-left: 0;
     background-color: #f6f6f6;
     border-radius: 10px;
 }
@@ -698,27 +686,23 @@ input {
     border-bottom: 1px solid #d2d2d2;
 }
 
-
 .wrapper__items:nth-child(3) {
     border-bottom: none;
 }
 
-
 .wrapper__heading {
     font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: #000;
+    margin-top: 20px;
     margin-bottom: 7px;
 }
 
 .wrapper__link {
+    display: block;
     font-family: 'Rubik', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 19px;
     color: #000;
     text-decoration: none;
